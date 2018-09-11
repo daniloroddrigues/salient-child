@@ -1,0 +1,135 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+
+
+
+/*Contact Form 7*/
+.wpcf7 {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.wpcf7 form {
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+}
+
+.wpcf7 h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    background-color: #1e2029;
+    padding: 25px 0;
+}
+
+.wpcf7 h2:before {
+    content: '';
+    border-top: 40px solid #1e2029;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    bottom: -50%;
+    z-index: 9;
+    left: 50%;
+}
+
+.wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
+    position: absolute;
+    bottom: 0 !important;
+    top: 0 !important;
+    width: 100%;
+    height: 1px;
+    box-shadow: none !important;
+    border: 1px solid #ef5350 !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0;
+    background: transparent;
+    text-indent: -999999px;
+    color: #ef5350 !important;
+}
+
+.wpcf7 .wpcf7-form-control-wrap.your-message .wpcf7-not-valid-tip {
+    height: 1px;
+}
+
+.wpcf7 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #cdcdcd;
+}
+
+.wpcf7 ::-moz-placeholder { /* Firefox 19+ */
+    color: #cdcdcd;
+}
+
+.wpcf7 :-ms-input-placeholder { /* IE 10+ */
+    color: #cdcdcd;
+}
+
+.wpcf7 :-moz-placeholder { /* Firefox 18- */
+    color: #cdcdcd;
+}
+
+.wpcf7-text, .wpcf7-textarea, .wpcf7-captchar, .wpcf7-form select {
+    background-color: #484a56 !important;
+    border: none !important;
+    width: 100% !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    border-radius: 3px !important;
+    font-size: 14px;
+    color: #cdcdcd !important;
+    padding: 16px !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpcf7-textarea {
+    height: 100px;
+    resize: none;
+}
+
+.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+    color: #D8000C;
+    background-color: #FFBABA;
+    border: 0;
+    padding: 1em;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    border: 0;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+
+
+
